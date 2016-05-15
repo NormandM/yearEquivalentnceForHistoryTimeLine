@@ -14,6 +14,8 @@
 		8E516A241CE8C07F00E0B001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E516A221CE8C07F00E0B001 /* LaunchScreen.storyboard */; };
 		8E516A2F1CE8C07F00E0B001 /* yearEquivalentnceForHistoryTimeLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E516A2E1CE8C07F00E0B001 /* yearEquivalentnceForHistoryTimeLineTests.swift */; };
 		8E516A3A1CE8C07F00E0B001 /* yearEquivalentnceForHistoryTimeLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E516A391CE8C07F00E0B001 /* yearEquivalentnceForHistoryTimeLineUITests.swift */; };
+		8E516A4A1CE8C22700E0B001 /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E516A491CE8C22700E0B001 /* Plist.swift */; };
+		8E516A4C1CE901B400E0B001 /* TotalTimeLine2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E516A4B1CE901B400E0B001 /* TotalTimeLine2.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8E516A351CE8C07F00E0B001 /* yearEquivalentnceForHistoryTimeLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yearEquivalentnceForHistoryTimeLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E516A391CE8C07F00E0B001 /* yearEquivalentnceForHistoryTimeLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yearEquivalentnceForHistoryTimeLineUITests.swift; sourceTree = "<group>"; };
 		8E516A3B1CE8C07F00E0B001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E516A491CE8C22700E0B001 /* Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Plist.swift; path = ../../HitoryTest/HitoryTest/Plist.swift; sourceTree = "<group>"; };
+		8E516A4B1CE901B400E0B001 /* TotalTimeLine2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TotalTimeLine2.plist; path = ../../../../Desktop/PlistForHistoryTimeLine/TotalTimeLine2.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		8E516A181CE8C07F00E0B001 /* yearEquivalentnceForHistoryTimeLine */ = {
 			isa = PBXGroup;
 			children = (
+				8E516A4B1CE901B400E0B001 /* TotalTimeLine2.plist */,
+				8E516A491CE8C22700E0B001 /* Plist.swift */,
 				8E516A191CE8C07F00E0B001 /* AppDelegate.swift */,
 				8E516A1B1CE8C07F00E0B001 /* ViewController.swift */,
 				8E516A1D1CE8C07F00E0B001 /* Main.storyboard */,
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E516A4C1CE901B400E0B001 /* TotalTimeLine2.plist in Resources */,
 				8E516A241CE8C07F00E0B001 /* LaunchScreen.storyboard in Resources */,
 				8E516A211CE8C07F00E0B001 /* Assets.xcassets in Resources */,
 				8E516A1F1CE8C07F00E0B001 /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E516A4A1CE8C22700E0B001 /* Plist.swift in Sources */,
 				8E516A1C1CE8C07F00E0B001 /* ViewController.swift in Sources */,
 				8E516A1A1CE8C07F00E0B001 /* AppDelegate.swift in Sources */,
 			);
